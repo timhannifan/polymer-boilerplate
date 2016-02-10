@@ -1,0 +1,15 @@
+/* CSS declarations go here */
+
+paper-button.fancy {
+  background: green;
+  color: yellow;
+}
+
+paper-button.fancy:hover {
+  background: lime;
+}
+
+paper-button[disabled],
+paper-button[toggles][active] {
+  background: red;
+}

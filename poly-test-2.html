@@ -1,0 +1,20 @@
+<head>
+  <title>poly-test-2</title>
+  <script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  <paper-button>link</paper-button>
+  <paper-button raised>raised</paper-button>
+  <paper-button toggles raised>toggles</paper-button>
+  <paper-button disabled>disabled</paper-button>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
